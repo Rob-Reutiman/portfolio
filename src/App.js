@@ -5,7 +5,6 @@ import './assets/css/portfolio.css'
 import { BrowserRouter as Router } from "react-router-dom";
 
 import RouteList from './components/content';
-/*import Footer from './components/footer.js' */
 
 class App extends Component {
 
