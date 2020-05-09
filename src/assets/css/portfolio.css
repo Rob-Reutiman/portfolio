@@ -14,7 +14,12 @@
     format('truetype');
 }
 
-/* @group Blink */
+body {
+  margin: 0;
+  font-family: '8_bit_Paragraph';
+}
+
+/* Blink */
 .blink {
 	-webkit-animation: blink 1.25s linear infinite;
 	-moz-animation: blink 1.25s linear infinite;
@@ -53,53 +58,60 @@
 	100% { opacity: 0; }
 }
 
-.header { 
-  font-family: '8_bit_Header';
-}
-
-.paragraph {
-  font-family: '8_bit_Paragraph';
-}
-
 /* Navigation */
 
 .navigation {
   background-color: #393e46;
-  height: 60px;
-  width: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .navigation span {
-  float: left;
+  font-family: "8_bit_Header";
+  float: right !important;
   display: block;
+  color: #f2f2f2;
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 18px;
+}
+
+.navigation .brand {
+  float: left;
+  color: #ffd700;
+}
+
+.navigation .active {
+  color: #ffd700;
 }
 
 .navigation span:hover {
-  color: #4ecca3;
+  color: #ffd700;
 }
 
-.brand {
-  float: left;
-  color: #4ecca3;
-  font-size: 20px;
-  padding: 14px 14px;
+.navigation .icon {
+  display: block;
 }
 
-.nav-items {
-  float: right;
-}
-.nav-items span {
-  float: left;
-  color: #eeeeee;
-  font-size: 14px;
-  padding: 18px 18px;
+.fa-1x {
+  font-size: 1.2rem;
 }
 
-.nav-items button {
-  display: none;
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links. 
+Show the hamburger menu */
+@media screen and (max-width: 600px) {
+  .collapse {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
 }
 
 /* Page Background */
@@ -107,27 +119,19 @@
 .background {
   display: block;
   background-color: #232931;
-  height: 100vh;
   width: 100%;
 }
-
- /*  Themes
-    color: #283149;
-    color: #404b69;
-    color: #00818a;
-    color: #dbedf3;
-*/
 
 .welcome {
   color: #eeeeee;
 }
 
 .teal {
-  color: #4ecca3;
+  color: #ffd700;
 }
 
 .welcome-div {
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .center {
@@ -138,4 +142,23 @@
 
 .center-text {
   text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.hello-world {
+  padding-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  position: relative;
+}
+
+.list-item {
+  padding-top: 10px;
 }

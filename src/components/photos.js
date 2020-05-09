@@ -1,18 +1,16 @@
 import React from 'react';
-
 import Nav from './nav'
 
-class Home extends React.Component {
+class Photos extends React.Component {
     render () {
         return(
           <React.Fragment>
-            <Nav/>
+            <Nav active={this.props.match.url}/>
             <div className='background'>
-              <p className='paragraph'>photos</p>
             </div>
           </React.Fragment>
         );
     }
 }
 
-export default Home;
+export default Photos;

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Lottie from 'react-lottie';
-import animationData from '../assets/lotties/pacman-loading';
+import animationData from '../../assets/lotties/computer-animation';
 
-class PacmanLoading extends Component {
+class ComputerAnimation extends Component {
 
   render(){
 
@@ -26,4 +26,4 @@ class PacmanLoading extends Component {
   }
 }
 
-export default PacmanLoading
+export default ComputerAnimation

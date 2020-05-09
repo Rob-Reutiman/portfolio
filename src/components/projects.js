@@ -1,13 +1,14 @@
 import React from 'react';
+import Nav from './nav';
+import ComputerAnimation from './animations/computer-animation';
 
-import Nav from './nav'
-
-class Home extends React.Component {
+class Projects extends React.Component {
   render () {
     return(
       <React.Fragment>
-        <Nav/>
+        <Nav active={this.props.match.url}/>
         <div className='background'>
+          <ComputerAnimation/>
           <p className='paragraph'>Projects</p>
         </div>
       </React.Fragment>
@@ -15,4 +16,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home;
+export default Projects;
