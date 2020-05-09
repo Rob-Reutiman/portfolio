@@ -5,39 +5,39 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 class Nav extends Component {
   render() {
 
-    // let item_menu_css = this.state.showHamburgerMenu
-    // ? "navbar-collapse collapse in"
-    // : "navbar-collapse collapse";
-    
-    return (
-        <nav className="navigation">
-          <div className="container-fluid">
-            <div>
-              <Link to="/"> 
-                <span className="header brand">Rob Reutiman</span>
-              </Link>
-            </div>
-            <div className="nav-items">
-              <Link to="/about">
-                <span className="header nav-item">About</span>
-              </Link>
-              <Link to="/projects"> 
-                <span className="header nav-item">Projects</span>
-              </Link>
-              <Link to="/blog">
-                <span className="header nav-item">Blog</span>
-              </Link>
-              <Link to="/photos">
-                <span className="header nav-item">Photos</span>
-              </Link>
-              {/* <button>
-                <div className=""></div>
-                <div className=""></div>
-                <div className=""></div>
-              </button> */}
-            </div>
-          </div>
-        </nav>
+    const photosActive = this.props.active === "/photos" ? "active" : "";
+    const fplActive = this.props.active === "/fpl" ? "active" : "";
+    const projectsActive = this.props.active === "/projects" ? "active" : "";
+    const aboutActive = this.props.active === "/about" ? "active" : "";
+
+    return (  
+      <nav className="navbar navbar-expand-lg navbar-dark navigation">
+        <Link to="/"> 
+          <span className="brand">Rob Reutiman</span>
+        </Link>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+          <span>
+            <i className="fa fa-bars fa-1x"></i>
+          </span>
+        </button>
+        {/* Collapsible Content */}
+        <div className="collapse navbar-collapse" id="navbarSupportedContent1">
+          <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
+            <Link to="/about" onClick={() => this.setState({active: "about"})}>
+              <span className={aboutActive}>About</span>
+            </Link>
+            <Link to="/projects" onClick={() => this.setState({active: "projects"})}> 
+              <span className={projectsActive}>Projects</span>
+            </Link>
+            <Link to="/fpl" onClick={() => this.setState({active: "fpl"})}>
+              <span className={fplActive}>FPL</span>
+            </Link>
+            <Link to="/photos" onClick={() => this.setState({active: "photos"})}>
+              <span className={photosActive}>Photos</span>
+            </Link>
+          </ul>
+        </div>
+      </nav>
     );
   }
 }
