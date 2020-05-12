@@ -30,22 +30,15 @@ class Welcome extends React.Component {
           <h1 className='paragraph welcome text-center'>Welcome to<br/>robreutiman.com!</h1>
         </div>
         <div className='container'>
-          <div className="center" name="tetrisWrapper">
-            <TetrisAnimation/>
-          </div>
-          { !this.state.loading && (
-            <div className="center welcome-div" name="paragraph_div">
+          { this.state.loading ? 
+          ( <div className="center" name="pacmanWrapper">
+              <PacmanLoading/>
+            </div>
+          ) : 
+          ( <div className="center welcome-div" name="paragraph_div">
               <p className='paragraph welcome text-center'>Press <span className='blink teal'>enter</span></p>
             </div>
           )}
-          { this.state.loading && (
-            <div className="center" name="pacmanWrapper">
-              <PacmanLoading/>
-            </div>
-          )}
-          <div className="center" name="tetrisWrapper">
-            <TetrisAnimation/>
-          </div>
         </div>
       </div>
     );
