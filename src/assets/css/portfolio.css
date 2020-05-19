@@ -15,8 +15,33 @@
 }
 
 body {
-  margin: 0;
   font-family: '8_bit_Paragraph';
+  background-color: #232931;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+.page-content {
+  margin: auto;
+}
+
+.b-darkest {
+  background-color: #232931;
+}
+
+.b-dark {
+  background-color: #393e46;
+}
+
+.white {
+  color: #f2f2f2;
+}
+
+.highlight {
+  color: #ffd700;
 }
 
 /* Blink */
@@ -58,6 +83,19 @@ body {
 	100% { opacity: 0; }
 }
 
+@media screen and (min-width:1200px) {
+  body { font-size:110%; } /* Increase the font size */
+}
+@media screen and (min-width:1400px) {
+  html { padding:0 15%; } /* Reduce the container width */
+}
+@media screen and (min-width:1600px) {
+  body { font-size:125%; } /* Increase the font size */
+}
+@media screen and (min-width:1800px) {
+  html { padding:0 20%; } /* Reduce the container width */
+}
+
 /* Navigation */
 
 .navigation {
@@ -73,7 +111,6 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 18px;
 }
 
 .navigation .brand {
@@ -116,22 +153,9 @@ Show the hamburger menu */
 
 /* Page Background */
 
-.background {
-  display: block;
-  background-color: #232931;
-  width: 100%;
-}
-
-.welcome {
-  color: #eeeeee;
-}
-
-.teal {
-  color: #ffd700;
-}
-
 .welcome-div {
-  padding-top: 150px;
+  padding-top: 20%;
+  width: 100%;
 }
 
 .center {
@@ -154,8 +178,6 @@ Show the hamburger menu */
 
 .hello-world {
   padding-top: 25px;
-  margin-left: 100px;
-  margin-right: 100px;
   position: relative;
 }
 
