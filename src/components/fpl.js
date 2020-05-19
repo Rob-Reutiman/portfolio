@@ -11,14 +11,14 @@ class FPL extends React.Component {
   render() {
 
     const tableHeaders = Object.keys(players[0]).map(key => {
-      return <th className='paragraph teal text-center'>{key}</th> 
+      return <th className='highlight text-center'>{key}</th> 
     });
 
     const tableRows = players.map(item => {
       return (
         <tr>
           {Object.values(item).map(value => {
-            return <td className='paragraph welcome text-center'>{value}</td>
+            return <td className='white text-center'>{value}</td>
           })}
         </tr>
       );
@@ -27,7 +27,7 @@ class FPL extends React.Component {
     return(
       <React.Fragment>
         <Nav active={this.props.match.url}/>
-        <div className='background'>
+        <div className="page-content">
           <table>
             <thead>
               <tr>

@@ -6,7 +6,7 @@ class Photos extends React.Component {
         return(
           <React.Fragment>
             <Nav active={this.props.match.url}/>
-            <div className='background'>
+            <div className="page-content">
             </div>
           </React.Fragment>
         );

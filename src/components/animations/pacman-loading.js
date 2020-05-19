@@ -7,7 +7,7 @@ class PacmanLoading extends Component {
   render(){
 
     const defaultOptions = {
-      loop: true,
+      loop: false,
       autoplay: true,
       animationData: animationData,
       rendererSettings: {
@@ -18,8 +18,8 @@ class PacmanLoading extends Component {
     return(
       <div>
         <Lottie options={defaultOptions}
-              height={400}
-              width={400}
+              height={300}
+              width={300}
         />
       </div>
     )

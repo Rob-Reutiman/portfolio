@@ -7,9 +7,9 @@ class Projects extends React.Component {
     return(
       <React.Fragment>
         <Nav active={this.props.match.url}/>
-        <div className='background'>
+        <div>
           <ComputerAnimation/>
-          <p className='paragraph'>Projects</p>
+          <p className='white'>Projects</p>
         </div>
       </React.Fragment>
     );
