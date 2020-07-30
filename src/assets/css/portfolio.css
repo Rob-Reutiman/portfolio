@@ -25,7 +25,7 @@ h1 {
 }
 
 .page-content {
-  margin: auto;
+  margin: 4%;
 }
 
 .b-darkest {
@@ -164,10 +164,6 @@ Show the hamburger menu */
   margin-right: auto;
 }
 
-.center-text {
-  text-align: center;
-}
-
 .container {
   display: flex;
 }
@@ -176,11 +172,33 @@ Show the hamburger menu */
   list-style-type: none;
 }
 
-.hello-world {
-  padding-top: 25px;
+.list li {
+  padding-top: 10px;
+  color: #ffd700;
+}
+
+.header {
+  margin-top: 8%;
+  margin-bottom: 8%;
   position: relative;
+}
+
+.header h1 {
+  text-align: center;
+  color: #ffd700;
 }
 
 .list-item {
   padding-top: 10px;
+}
+
+.code_box {
+  font-family: 'Monaco', 'Courier New';
+  padding: 5%;
+  color: #393e46;
+  background-color: #393e46;
+}
+
+.code_box span {
+  color: #f2f2f2;
 }
