@@ -20,6 +20,14 @@ body {
   font-size: 100%;
 }
 
+a {
+  color: #5cecff;
+}
+
+a:hover {
+  color: #a13eb5;
+}
+
 h1 {
   font-size: 200%;
 }
@@ -186,10 +194,6 @@ Show the hamburger menu */
 .header h1 {
   text-align: center;
   color: #ffd700;
-}
-
-.list-item {
-  padding-top: 10px;
 }
 
 .code_box {
