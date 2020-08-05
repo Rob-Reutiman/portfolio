@@ -10,9 +10,8 @@ class Welcome extends React.Component {
   }
 
   componentDidMount() {
-    console.dir(this.isMobile())
     document.body.addEventListener('keypress', (e) => { if(e.keyCode === 13) this.registerClick() });
-    // document.body.addEventListener('mousedown', (e) => { this.registerClick() });
+    if(this.isMobile()) document.body.addEventListener('mousedown', (e) => { this.registerClick() });
   }
 
   registerClick() {
@@ -28,7 +27,7 @@ class Welcome extends React.Component {
 
   componentWillUnmount() {
     document.body.removeEventListener('keypress', (e) => { if(e.keyCode === 13) this.registerClick() });
-    //document.body.removeEventListener('mousedown', (e) => { this.registerClick() });
+    if(this.isMobile()) document.body.removeEventListener('mousedown', (e) => { this.registerClick() });
   }
 
   render () {

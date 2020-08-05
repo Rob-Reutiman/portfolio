@@ -29,12 +29,15 @@ class Nav extends Component {
             <Link to="/projects" onClick={() => this.setState({active: "projects"})}> 
               <span className={projectsActive}>Projects</span>
             </Link>
-            <Link to="/fpl" onClick={() => this.setState({active: "fpl"})}>
+            {/* <Link to="/fpl" onClick={() => this.setState({active: "fpl"})}>
               <span className={fplActive}>FPL</span>
             </Link>
             <Link to="/photos" onClick={() => this.setState({active: "photos"})}>
               <span className={photosActive}>Photos</span>
             </Link>
+            <Link to="/blog" onClick={() => this.setState({active: "blog"})}>
+              <span className={BlogActive}>Blog</span>
+            </Link> */}
           </ul>
         </div>
       </nav>
