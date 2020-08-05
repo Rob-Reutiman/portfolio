@@ -164,6 +164,28 @@ Show the hamburger menu */
   }
 }
 
+.footer {
+  padding-top: 15px;
+  display: block;
+  height: 110px;
+  background-color: #393e46;
+  text-align: center;
+}
+
+.footer h1 {
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.footer h1 i {
+  padding: 5px;
+  color: #ffd700;
+}
+
+.footer span {
+  color: #f2f2f2;
+}
+
 /* Page Background */
 
 .welcome-div {

@@ -9,7 +9,7 @@ class Introduction extends React.Component {
           <img className='computer' src='laptop.gif' alt='<laptop.gif>'></img>
         </div>
 
-        <div id='about' className='header'>
+        <div className='header'>
           <h1>Hello, World! Here's what you need to know about me.</h1>
         </div>
 
@@ -30,12 +30,10 @@ class Introduction extends React.Component {
               </ul>&#125;,</span>
             </li>
             <li>&#09;resume: <span><a href='reutiman_resume.pdf'>reutiman_resume.pdf</a>,</span></li>
-            <li>&#09;github: <span><a href='https://github.com/Rob-Reutiman'>Rob-Reutiman</a>,</span></li>
             <li>&#09;contact: <span>&#123;
               <ul className='list'>
                 <li>&#09;phone: <span>949-812-2387,</span></li>
                 <li>&#09;email: <span>rob@robreutiman.com</span></li>
-                <li>&#09;linkedin: <a href='https://www.linkedin.com/in/robert-reutiman/'>Rob Reutiman</a></li>
               </ul>&#125;</span>
             </li>
           </ul>
