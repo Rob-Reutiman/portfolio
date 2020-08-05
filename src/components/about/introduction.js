@@ -4,12 +4,12 @@ class Introduction extends React.Component {
   render () {
     return (
       <React.Fragment>
-        <div id='about' className='avatar'>
+        <div className='avatar'>
           <img src='avatar.png' alt='<avatar.png>'></img>
           <img className='computer' src='laptop.gif' alt='<laptop.gif>'></img>
         </div>
 
-        <div className='header'>
+        <div id='about' className='header'>
           <h1>Hello, World! Here's what you need to know about me.</h1>
         </div>
 

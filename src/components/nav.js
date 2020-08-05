@@ -5,13 +5,13 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 class Nav extends Component {
   render() {
 
-    const photosActive = this.props.active === "/photos" ? "active" : "";
-    const fplActive = this.props.active === "/fpl" ? "active" : "";
-    const projectsActive = this.props.active === "/projects" ? "active" : "";
-    const aboutActive = this.props.active === "/about" ? "active" : "";
+    // const photosActive = this.props.active === "/photos" ? "active" : "";
+    // const fplActive = this.props.active === "/fpl" ? "active" : "";
+    // const projectsActive = this.props.active === "/projects" ? "active" : "";
+    // const aboutActive = this.props.active === "/about" ? "active" : "";
 
     return (  
-      <nav className="navbar navbar-expand-lg navbar-dark navigation">
+      <nav className="navbar navbar-expand-lg navbar-dark fixed-top navigation">
         <Link to="/"> 
           <span className="brand">Rob Reutiman</span>
         </Link>
@@ -23,12 +23,8 @@ class Nav extends Component {
         {/* Collapsible Content */}
         <div className="collapse navbar-collapse" id="navbarSupportedContent1">
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
-            <Link to="/about" onClick={() => this.setState({active: "about"})}>
-              <span className={aboutActive}>About</span>
-            </Link>
-            <Link to="/projects" onClick={() => this.setState({active: "projects"})}> 
-              <span className={projectsActive}>Projects</span>
-            </Link>
+              <a href="#about"><span>About</span></a>
+              <a href="#projects"><span>Projects</span></a>
             {/* <Link to="/fpl" onClick={() => this.setState({active: "fpl"})}>
               <span className={fplActive}>FPL</span>
             </Link>
