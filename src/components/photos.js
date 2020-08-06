@@ -11,6 +11,7 @@ class Photos extends React.Component {
             <Nav active={this.props.match.url}/>
 
             <div className="page-content">
+              <div className='coming_soon'><h1>Coming Soon</h1></div>
             </div>
 
             <Footer/>
