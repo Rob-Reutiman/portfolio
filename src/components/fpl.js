@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from './nav'
 
 // TODO: GET PLAYER DATA FROM API
 let players = [
@@ -26,7 +25,6 @@ class FPL extends React.Component {
 
     return(
       <React.Fragment>
-        <Nav active={this.props.match.url}/>
         <div className="page-content">
           <table>
             <thead>

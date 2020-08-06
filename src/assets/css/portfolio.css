@@ -14,6 +14,10 @@
     format('truetype');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: '8_bit_Paragraph';
   background-color: #232931;
@@ -34,6 +38,7 @@ h1 {
 
 .page-content {
   margin: 4%;
+  margin-top: 100px;
 }
 
 .b-darkest {
@@ -159,17 +164,40 @@ Show the hamburger menu */
   }
 }
 
+.footer {
+  padding-top: 15px;
+  display: block;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  height: 110px;
+  background-color: #393e46;
+  text-align: center;
+}
+
+.footer h1 {
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.footer h1 i {
+  padding: 5px;
+  color: #ffd700;
+}
+
+.footer span {
+  color: #f2f2f2;
+}
+
+#experience, #projects, #coursework {
+  padding-top: 100px;
+  margin-top: -50px;
+}
+
 /* Page Background */
 
 .welcome-div {
-  padding-top: 20%;
-  width: 100%;
-}
-
-.center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 10%;
 }
 
 .list {
@@ -192,13 +220,14 @@ Show the hamburger menu */
   color: #ffd700;
 }
 
+/* Introduction */
+
 .code_box {
   border-color: #f2f2f2;
   border-style: inset;
   border-radius: 15px;
   font-family: 'Monaco', 'Courier New';
   padding: 5%;
-  color: #393e46;
   background-color: #393e46;
 }
 
@@ -216,6 +245,46 @@ Show the hamburger menu */
 .code_box span {
   color: #f2f2f2;
 }
+
+/* Experience */
+
+.expr {
+  border-color: #f2f2f2;
+  border-style: inset;
+  border-radius: 15px;
+  font-family: 'Monaco', 'Courier New';
+  padding: 5%;
+  background-color: #393e46;
+  margin-bottom: 25px;
+  color: #ffd700;
+}
+
+.dates {
+  float: right;
+  color: #ffd700;
+}
+
+.course_dates {
+  float: right;
+  color: #f2f2f2;
+}
+
+.role {
+  color: #5cecff;
+}
+
+.expr ul {
+  list-style-type: none;
+  color: #f2f2f2;
+}
+
+.expr ul li:before {
+  content: '\2014';
+  position: absolute;
+  margin-left: -20px;
+}
+
+/* Projects */
 
 .link_box {
   border-color: #f2f2f2;
