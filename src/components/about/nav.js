@@ -24,6 +24,7 @@ class Nav extends Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent1">
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
               <a href="#"><span>About</span></a>
+              <a href="#experience"><span>Experience</span></a>
               <a href="#projects"><span>Projects</span></a>
             {/* <Link to="/fpl" onClick={() => this.setState({active: "fpl"})}>
               <span className={fplActive}>FPL</span>

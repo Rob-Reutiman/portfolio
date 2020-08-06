@@ -33,20 +33,15 @@ class Welcome extends React.Component {
   render () {
     return(
       <div className="page-content">
-        <div className="center welcome-div" name="header_div">
+        <div className="welcome-div">
           <h1 className='white text-center'>Welcome to Rob Reutiman's portfolio!</h1>
         </div>
-        <div className='container'>
-          { this.state.loading ? 
-          ( <div className="center" name="pacmanWrapper">
-              <PacmanLoading/>
-            </div>
-          ) : 
-          ( <div className="center welcome-div" name="paragraph_div">
-              <p className='white text-center'>Press <span className='blink highlight'>enter</span></p>
-            </div>
-          )}
-        </div>
+        { this.state.loading ? 
+        ( <PacmanLoading/> ) : 
+        ( <div className="welcome-div">
+            <p className='white text-center'>Press <span className='blink highlight'>enter</span></p>
+          </div>
+        )}
       </div>
     );
   }

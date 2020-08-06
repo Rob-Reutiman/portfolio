@@ -2,6 +2,7 @@ import React from 'react';
 
 import Nav from './nav';
 import Introduction from './introduction';
+import Experience from './experience';
 import Projects from './projects';
 import Footer from './footer';
 
@@ -16,6 +17,8 @@ class About extends React.Component {
         <div className='page-content'>
 
           <Introduction/>
+
+          <Experience/>
 
           <Projects/>
 
