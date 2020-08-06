@@ -164,30 +164,6 @@ Show the hamburger menu */
   }
 }
 
-.footer {
-  padding-top: 15px;
-  display: block;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  height: 110px;
-  background-color: #393e46;
-  text-align: center;
-}
-
-.footer h1 {
-  color: #ffd700;
-  margin-bottom: 10px;
-}
-
-.footer h1 i {
-  padding: 5px;
-  color: #ffd700;
-}
-
-.footer span {
-  color: #f2f2f2;
-}
-
 #experience, #projects, #coursework {
   padding-top: 100px;
   margin-top: -50px;
@@ -218,6 +194,7 @@ Show the hamburger menu */
 .header h1 {
   text-align: center;
   color: #ffd700;
+  margin-bottom: -3%;
 }
 
 /* Introduction */
@@ -339,4 +316,42 @@ Show the hamburger menu */
   margin-left: 1%;
   margin-right: 1%;
   margin-bottom: 15px;
+}
+
+/* Footer */
+
+.footer {
+  padding-top: 15px;
+  display: block;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  height: 110px;
+  background-color: #393e46;
+  text-align: center;
+}
+
+.footer h1 {
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.footer h1 i {
+  padding: 5px;
+  color: #ffd700;
+}
+
+.footer span {
+  color: #f2f2f2;
+}
+
+.coming_soon {
+  vertical-align: middle;
+}
+
+.coming_soon h1 {
+  margin-top: 30%;
+  margin-bottom: 30%;
+  font-size: 300%;
+  color: #ffd700;
+  text-align: center;
 }
