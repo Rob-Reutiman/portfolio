@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Nav from './nav';
+import Footer from './footer';
 
 class Blog extends React.Component {
     render () {
@@ -11,6 +12,9 @@ class Blog extends React.Component {
 
             <div className="page-content">
             </div>
+
+            <Footer/>
+
           </React.Fragment>
         );
     }
