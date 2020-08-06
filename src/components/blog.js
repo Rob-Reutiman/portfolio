@@ -2,7 +2,7 @@ import React from 'react';
 
 import Nav from './nav';
 
-class Photos extends React.Component {
+class Blog extends React.Component {
     render () {
         return(
           <React.Fragment>
@@ -16,4 +16,4 @@ class Photos extends React.Component {
     }
 }
 
-export default Photos;
+export default Blog;

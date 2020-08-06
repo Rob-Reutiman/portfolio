@@ -25,7 +25,7 @@ class Experience extends React.Component {
 
     return (
       <React.Fragment>
-        <div id='experience' className='header'>
+        <div className='header'>
           <h1>Experience</h1>
         </div>
 

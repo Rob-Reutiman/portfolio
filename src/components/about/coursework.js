@@ -16,7 +16,7 @@ class Coursework extends React.Component {
 
     return (
       <React.Fragment>
-        <div id='coursework' className='header'>
+        <div className='header'>
           <h1>Coursework</h1>
         </div>
 

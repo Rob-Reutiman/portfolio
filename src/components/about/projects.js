@@ -26,7 +26,7 @@ class Projects extends React.Component {
 
     return (
       <React.Fragment>
-        <div id='projects' className='header'>
+        <div className='header'>
           <h1>Projects</h1>
         </div>
 
