@@ -26,6 +26,7 @@ class Nav extends Component {
               <a href="#"><span>About</span></a>
               <a href="#experience"><span>Experience</span></a>
               <a href="#projects"><span>Projects</span></a>
+              <a href="#coursework"><span>Coursework</span></a>
             {/* <Link to="/fpl" onClick={() => this.setState({active: "fpl"})}>
               <span className={fplActive}>FPL</span>
             </Link>

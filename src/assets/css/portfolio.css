@@ -188,7 +188,7 @@ Show the hamburger menu */
   color: #f2f2f2;
 }
 
-#experience, #projects {
+#experience, #projects, #coursework {
   padding-top: 100px;
   margin-top: -50px;
 }
@@ -262,6 +262,11 @@ Show the hamburger menu */
 .dates {
   float: right;
   color: #ffd700;
+}
+
+.course_dates {
+  float: right;
+  color: #f2f2f2;
 }
 
 .role {
