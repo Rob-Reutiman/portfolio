@@ -1,12 +1,15 @@
 import React from 'react';
 
+import avatar from './avatar.png';
+import laptop from './laptop.gif';
+
 class Introduction extends React.Component {
   render () {
     return (
       <React.Fragment>
         <div className='avatar'>
-          <img src='avatar.png' alt='<avatar.png>'></img>
-          <img className='computer' src='laptop.gif' alt='<laptop.gif>'></img>
+          <img src={avatar} alt='<avatar.png>'></img>
+          <img className='computer' src={laptop} alt='<laptop.gif>'></img>
         </div>
 
         <div className='header'>
