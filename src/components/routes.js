@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch, withRouter } from "react-router
 
 import Welcome from './welcome.js'
 import Blog from './blog/blog.js'
-import Photos from './photos.js'
+import Photos from './photos/photos.js'
 import About from './about/about.js'
 
 class RouteList extends Component {
