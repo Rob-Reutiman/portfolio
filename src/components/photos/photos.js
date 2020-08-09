@@ -26,8 +26,8 @@ class Photos extends React.Component {
         <Nav active={this.props.match.url}/>
 
         <div className="page-content">
-          <div className='header'>
-            <h1>I take lots of photos for fun, but here are my current favorites!</h1>
+          <div className='header photo-header'>
+            <h1 className=''>I take lots of photos for fun, but here are my current favorites!</h1>
           </div>
 
           <div className='photos'>

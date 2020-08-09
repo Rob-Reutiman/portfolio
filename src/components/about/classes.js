@@ -8,7 +8,7 @@ const classes = [
   { name: 'Systems Programming', dates: 'Spring 2019' },
   { name: 'Logic Design', dates: 'Spring 2019' },
   { name: 'Fundamentals of Computing', dates: 'Fall 2018' },
-  { name: 'Discreet Math', dates: 'Fall 2018' },
+  { name: 'Discrete Math', dates: 'Fall 2018' },
   { name: 'Introduction to Embedded Systems', dates: 'Spring 2018' },
   { name: 'Introduction to Engineering Systems', dates: 'Fall 2017 - Spring 2018' }
 ]
