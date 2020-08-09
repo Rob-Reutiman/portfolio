@@ -9,9 +9,17 @@ class Blog extends React.Component {
 
       const posts = Entries.map(entry => {
         return (
-          <div className='expr'>
-          {entry.title} <span className='dates'>{entry.date}</span>
+          <div className='blog'>
+            <table>
+              <tbody>
+                <tr>
+                  <td>{entry.title}</td>
+                  <td className='dates'><span>{entry.date}</span></td>
+                </tr>
+              </tbody>
+            </table>
           <p className='white'>
+            <br/>
             {entry.text}
           </p>
         </div>
@@ -24,15 +32,14 @@ class Blog extends React.Component {
             <Nav active={this.props.match.url}/>
 
             <div className="page-content">
-              <div className='coming_soon'><h1>Coming Soon</h1></div>
 
-              {/* <div className='header'>
+              <div className='header blog_header'>
                 <h1>私のブラグ</h1>
-              </div> */}
+              </div>
+
+              {posts}
+
             </div>
-
-            {/* {posts} */}
-
 
             <Footer/>
 
