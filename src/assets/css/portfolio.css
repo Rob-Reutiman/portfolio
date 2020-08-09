@@ -360,7 +360,6 @@ Show the hamburger menu */
 
 .photos {
   text-align: center;
-
 }
 
 .photos img {
@@ -386,7 +385,7 @@ Show the hamburger menu */
   font-family: 'Monaco', 'Courier New';
   padding: 5%;
   background-color: #393e46;
-  margin-bottom: 25px;
+  margin-bottom: 120px;
   color: #ffd700;
   font-size: 120%;
 }
@@ -394,4 +393,8 @@ Show the hamburger menu */
 .blog p {
   font-size: 120%;
   text-align: center;
+}
+
+.tcol {
+  width: 100%;
 }

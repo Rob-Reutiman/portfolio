@@ -11,18 +11,16 @@ class Blog extends React.Component {
         return (
           <div className='blog'>
             <table>
-              <tbody>
-                <tr>
-                  <td>{entry.title}</td>
-                  <td className='dates'><span>{entry.date}</span></td>
-                </tr>
-              </tbody>
+              <tr>
+                <td className='tcol'>{entry.title}</td>
+                <td className='tcol dates'><span>{entry.date}</span></td>
+              </tr>
             </table>
-          <p className='white'>
-            <br/>
-            {entry.text}
-          </p>
-        </div>
+            <p className='white'>
+              <br/>
+              {entry.text}
+            </p>
+          </div>
         )
       })
 
