@@ -355,3 +355,20 @@ Show the hamburger menu */
   color: #ffd700;
   text-align: center;
 }
+
+/* Photos */
+
+.photos {
+  text-align: center;
+
+}
+
+.photos img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 80%;
+}
+
+.photo-header {
+  padding-top: 30px;
+}
