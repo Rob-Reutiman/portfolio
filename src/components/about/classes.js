@@ -1,4 +1,7 @@
 const classes = [
+  { name: 'Computer Networks', dates: 'Fall 2020 (IP)' },
+  { name: 'Programming Paradigms', dates: 'Fall 2020 (IP)' },
+  { name: 'Theory of Computing', dates: 'Fall 2020 (IP)' },
   { name: 'Programming Challenges', dates: 'Summer 2020' },
   { name: 'Compilers and Language Design', dates: 'Fall 2019' },
   { name: 'Operating Systems', dates: 'Fall 2019' },
