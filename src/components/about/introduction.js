@@ -22,7 +22,7 @@ class Introduction extends React.Component {
             <li>&#09;origin: <span>San Francisco, CA,</span></li>
             <li>&#09;education: <span>University of Notre Dame,</span></li>
             <li>&#09;major: <span>Computer Science,</span></li>
-            <li>&#09;GPA: <span>3.38,</span></li>
+            <li>&#09;GPA: <span>3.45,</span></li>
             <li>&#09;expected_graduation: <span>May 2021,</span></li>
             <li>&#09;interests: <span>&#91; Coding, Backpacking, Spearfishing, Video Games, Photography, Arsenal FC, Japanese Language and Culture &#93;,</span></li>
             <li>&#09;resume: <span><a href='reutiman_resume.pdf'>reutiman_resume.pdf</a>,</span></li>
