@@ -6,7 +6,14 @@ const projects = [
     tags: ["javascript", "react", "html", "css"],
     link: "https://github.com/Rob-Reutiman/portfolio"
   },
-    { 
+  {
+    name: "FPL Companion", 
+    description: "A Fantasy Premier League companion app that uses predictive algorithms to evaluate top picks for upcoming gameweeks.",
+    icon: "fa-futbol",
+    tags: ["javascript", "react", "html", "css", "python", "cherrypy"],
+    link: "https://github.com/Rob-Reutiman/fantasy-pl-app"
+  },
+  { 
     name: "myCompiler", 
     description: "A compiler for a C-style language consisting of a scanner, a parser, a type-checker, and an assembly code generator.",
     icon: "fa-laptop-code",

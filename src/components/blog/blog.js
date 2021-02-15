@@ -32,7 +32,7 @@ class Blog extends React.Component {
             <div className="page-content">
 
               <div className='header blog_header'>
-                <h1>私のブラグ</h1>
+                <h1>私のブログ</h1>
               </div>
 
               {posts}
