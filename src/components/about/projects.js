@@ -11,7 +11,7 @@ class Projects extends React.Component {
         )
       })
       return (
-        <div className='col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12'>
+        <div className='col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12'>
           <div className='link_box'>
             <i className={'fas ' + project.icon + ' fa-2x'}></i>
             <h2><a href={project.link}>{project.name}</a> <a href={project.link}><i className='fab fa-github fa-md'></i></a></h2>
