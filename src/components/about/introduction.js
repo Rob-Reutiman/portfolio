@@ -20,11 +20,9 @@ class Introduction extends React.Component {
           <span>rob_reutiman = &#123;</span>
           <ul className='list'>
             <li>&#09;origin: <span>San Francisco, CA,</span></li>
-            <li>&#09;education: <span>University of Notre Dame,</span></li>
-            <li>&#09;major: <span>Computer Science,</span></li>
-            <li>&#09;GPA: <span>3.45,</span></li>
-            <li>&#09;expected_graduation: <span>May 2021,</span></li>
-            <li>&#09;interests: <span>&#91; Coding, Backpacking, Spearfishing, Video Games, Photography, Arsenal FC, Japanese Language and Culture &#93;,</span></li>
+            <li>&#09;education: <span>B.S. in Computer Science from the University of Notre Dame,</span></li>
+            <li>&#09;skils: <span>&#91; Javascript, Java, Python, HTML/CSS, C, SQL, Bash, Node.js, Mocha, Chain, Spring Boot, JUnit, Django, React, Angular, AWS Cloud, Docker, K8s, Jira, Scrum, Git, CI/CD, Vault, Splunk, DataDog &#93;,</span></li>
+            <li>&#09;interests: <span>&#91; Coding, Arsenal Football Club, F1, Bouldering, Free Diving, Reading, Video Games &#93;,</span></li>
             <li>&#09;resume: <span><a href='reutiman_resume.pdf'>reutiman_resume.pdf</a>,</span></li>
             <li>&#09;contact: <span>&#123;
               <ul className='list'>
