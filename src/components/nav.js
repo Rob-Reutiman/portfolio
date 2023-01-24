@@ -20,7 +20,7 @@ class Nav extends Component {
           </span>
         </button>
         {/* Collapsible Content */}
-        <div className="collapse navbar-collapse" id="navbarSupportedContent1">
+        {/* <div className="collapse navbar-collapse" id="navbarSupportedContent1">
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
             <Link to="/about" onClick={() => this.setState({active: "about"})}>
               <span className={aboutActive}>About</span>
@@ -32,7 +32,7 @@ class Nav extends Component {
               <span className={blogActive}>JP Blog</span>
             </Link>
           </ul>
-        </div>
+        </div> */}
       </nav>
     );
   }

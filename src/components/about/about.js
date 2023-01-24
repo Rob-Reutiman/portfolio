@@ -23,8 +23,6 @@ class About extends React.Component {
 
           <Projects/>
 
-          <Coursework/>
-
         </div>
 
         <Footer/>
