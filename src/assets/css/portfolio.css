@@ -21,7 +21,10 @@ html {
 body {
   font-family: '8_bit_Paragraph';
   background-color: #232931;
-  font-size: 100%;
+  font-size: 80%;
+  padding-right: 10%;
+  padding-left: 10%;
+
 }
 
 a {
@@ -33,7 +36,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 150%;
 }
 
 .page-content {
@@ -216,7 +219,7 @@ Show the hamburger menu */
 
 .avatar img {
   vertical-align: middle;
-  width: 20%;
+  width: 15%;
 }
 
 .code_box span {
