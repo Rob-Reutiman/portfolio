@@ -134,3 +134,7 @@ temp/
 
 # Build
 build/
+
+# Yarn
+.yarn/
+.yarnrc.yml
