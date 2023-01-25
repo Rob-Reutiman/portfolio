@@ -23,7 +23,6 @@ class Introduction extends React.Component {
             <li>&#09;education: <span>B.S. in Computer Science from the University of Notre Dame,</span></li>
             <li>&#09;skils: <span>&#91; Javascript, Java, Python, HTML/CSS, C, SQL, Bash, Node.js, Mocha, Chain, Spring Boot, JUnit, Django, React, Angular, AWS Cloud, Docker, K8s, Jira, Scrum, Git, CI/CD, Vault, Splunk, DataDog &#93;,</span></li>
             <li>&#09;interests: <span>&#91; Coding, Arsenal Football Club, F1, Bouldering, Free Diving, Reading, Video Games &#93;,</span></li>
-            <li>&#09;resume: <span><a href='reutiman_resume.pdf'>reutiman_resume.pdf</a>,</span></li>
             <li>&#09;contact: <span>&#123;
               <ul className='list'>
                 <li>&#09;phone: <span>949-812-2387,</span></li>
