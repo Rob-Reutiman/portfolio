@@ -69,6 +69,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+.yarn/
 
 # TypeScript v1 declaration files
 typings/
@@ -134,3 +135,7 @@ temp/
 
 # Build
 build/
+
+# Yarnrc
+.yarnrc.yml
+
