@@ -14,11 +14,11 @@ class Nav extends Component {
         <Link to="/"> 
           <span className="brand">Rob Reutiman</span>
         </Link>
-        {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
           <span>
             <i className="fa fa-bars fa-1x"></i>
           </span>
-        </button> */}
+        </button>
         {/* Collapsible Content */}
         {/* <div className="collapse navbar-collapse" id="navbarSupportedContent1">
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">

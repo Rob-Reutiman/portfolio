@@ -10,8 +10,8 @@ class RouteList extends Component {
     return (
       <Switch> { /* Evaluates which page to display based on path */ }
         <Route path='/' component={withRouter(About)} />
-        {/* <Route path="/photos" component={withRouter(Photos)} />
-        <Route path="/jp-blog" component={withRouter(Blog)} /> */}
+        <Route path="/photos" component={withRouter(Photos)} />
+        <Route path="/jp-blog" component={withRouter(Blog)} />
       </Switch>
     )
   }
